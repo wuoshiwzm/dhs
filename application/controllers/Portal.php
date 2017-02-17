@@ -5,33 +5,18 @@ if (!defined('BASEPATH'))
 
 //require_once 'phpexcel/PHPExcel.php';
 //include 'PHPExcel/Writer/Excel2007.php';
-
+require_once 'BaseController.php';
 const DEFAULT_PAGE_SIZE = 20;
 
-class Portal extends CI_Controller
+class Portal extends BaseController
 {
 
     var $userObj = null;
-
     //var $excelStyleArray = array('borders' => array('allborders' => array('style' => PHPExcel_Style_Border::BORDER_THIN)));
     public function __construct()
     {
         //继承父类构造函数
-
         parent::__construct();
-        if (!User::IsAuthenticated()) {
-
-            if (uri_string() == "portal/get_video_url")
-                return;
-            if (uri_string() == 'portal/refreshData' && $this->isOauthPass()) {
-                return;
-            }
-            redirect('/login');
-        } else {
-
-            $this->userObj = User::GetCurrentUser();
-            User::Set_UserWebOnline($this->userObj->id);
-        }
     }
 
 
@@ -195,14 +180,12 @@ class Portal extends CI_Controller
 
     public function index()
     {
-
         $data = array();
         $data['actTab'] = 'index';
         $data['bcList'] = array();
         $bcObj = new Breadcrumb();
         $bcObj->title = '首页';
         $bcObj->isLast = true;
-var_dump($_SESSION);die;
 
         array_push($data['bcList'], $bcObj);
         if ($_SESSION['XJTELEDH_USERROLE'] == 'admin' || $_SESSION['XJTELEDH_USERROLE'] == 'noc') {

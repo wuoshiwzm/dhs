@@ -15,6 +15,8 @@ class Login extends Base
      */
     public function index()
     {
+        $this->load->library('session');
+
         //check if the user is logged
         if (!User::IsAuthenticated()) {
             $this->load->view('member/login');
@@ -90,6 +92,15 @@ class Login extends Base
             }
         }
         $this->load->view('member/login');
+    }
+
+    /**
+     * logout and redirect to mainpage
+     */
+    public function logout()
+    {
+        session_destroy();
+        redirect('/');
     }
 
 
