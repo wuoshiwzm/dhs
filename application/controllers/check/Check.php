@@ -62,12 +62,12 @@ class Check extends CI_Controller
 
 
         $dbObj = $this->load->database('default', TRUE);
-        var_dump($dbObj);die;
-
+        var_dump($dbObj->get('check_apply'));
+        die;
 
         $dbObj->whereNot('check_jim', 1);
         $dbObj->select('*');
-        $row = $dbObj->get('check_apply')->rsult();
+        $row = $dbObj->get('check_apply')->result();
 
         var_dump($row);die;
 

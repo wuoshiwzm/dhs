@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa8ae0d3-7f0c-4519-9f73-473eeadfd6b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/layer/skin/default/icon-ext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/layer/skin/default/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/layer/skin/default/loading-0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/layer/skin/default/loading-1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/layer/skin/default/loading-2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/check/Check.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/helpers/author_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/check/all_check.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/check/first_check.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/check/second_check.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/member/first_check.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/layer/layer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/layer/mobile/layer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/layer/mobile/need/layer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/layer/skin/default/layer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/autoload.php" afterPath="$PROJECT_DIR$/application/config/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/BaseController.php" afterPath="$PROJECT_DIR$/application/controllers/BaseController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/member/Login.php" afterPath="$PROJECT_DIR$/application/controllers/member/Login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/helpers/realtime_helper.php" afterPath="$PROJECT_DIR$/application/helpers/realtime_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/helpers/user_helper.php" afterPath="$PROJECT_DIR$/application/helpers/user_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/Mp_master.php" afterPath="$PROJECT_DIR$/application/models/Mp_master.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/check/Check.php" afterPath="$PROJECT_DIR$/application/controllers/check/Check.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Check.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Check.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/check/Check.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state relative-caret-position="232">
+              <caret line="63" column="45" lean-forward="false" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
               <folding>
                 <element signature="n#secondCheck#0;n#Check#0;n#!!top" expanded="false" />
                 <element signature="n#approve#0;n#Check#0;n#!!top" expanded="false" />
@@ -72,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mp_xjdh.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Mp_xjdh.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/Mp_xjdh.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="4271" column="5" lean-forward="false" selection-start-line="4271" selection-start-column="5" selection-end-line="4271" selection-end-column="5" />
+            <state relative-caret-position="197">
+              <caret line="4281" column="45" lean-forward="false" selection-start-line="4281" selection-start-column="45" selection-end-line="4281" selection-end-column="45" />
               <folding>
                 <marker date="1487129233172" expanded="true" signature="108657:108753" ph="select * fro... device" />
                 <marker date="1487129233172" expanded="true" signature="108707:108731" ph="select room.... room" />
@@ -92,7 +71,7 @@
       <file leaf-file-name="first_check.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/check/first_check.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="115">
               <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
               <folding />
             </state>
@@ -131,8 +110,8 @@
       <find>substation_list(</find>
       <find>sql</find>
       <find>database</find>
-      <find>wherenot</find>
       <find>where_not</find>
+      <find>wherenot</find>
     </findStrings>
     <dirStrings>
       <dir>F:\workspace\dhs\application\controllers</dir>
@@ -421,16 +400,16 @@
       <workItem from="1487294908645" duration="535000" />
       <workItem from="1487295637542" duration="24734000" />
       <workItem from="1487561292176" duration="867000" />
-      <workItem from="1487641589785" duration="22554000" />
+      <workItem from="1487641589785" duration="24326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131819000" />
+    <option name="totallyTimeSpent" value="133591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21406959" sideWeight="0.87058824" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1270,19 +1249,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/check/first_check.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="115">
           <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/check/Check.php">
+    <entry file="file://$PROJECT_DIR$/application/models/Mp_xjdh.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state relative-caret-position="197">
+          <caret line="4281" column="45" lean-forward="false" selection-start-line="4281" selection-start-column="45" selection-end-line="4281" selection-end-column="45" />
           <folding>
-            <element signature="n#secondCheck#0;n#Check#0;n#!!top" expanded="false" />
-            <element signature="n#approve#0;n#Check#0;n#!!top" expanded="false" />
+            <marker date="1487129233172" expanded="true" signature="108657:108753" ph="select * fro... device" />
+            <marker date="1487129233172" expanded="true" signature="108707:108731" ph="select room.... room" />
+            <marker date="1487129233172" expanded="true" signature="108926:109053" ph="select * fro... device" />
+            <marker date="1487129233172" expanded="true" signature="108982:109025" ph="select smd_d... smd_device" />
+            <marker date="1487129233172" expanded="true" signature="109227:109335" ph="select * fro... smd_device" />
+            <marker date="1487129233172" expanded="true" signature="109285:109309" ph="select room.... room" />
           </folding>
         </state>
       </provider>
@@ -1302,17 +1285,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Mp_xjdh.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/check/Check.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="4271" column="5" lean-forward="false" selection-start-line="4271" selection-start-column="5" selection-end-line="4271" selection-end-column="5" />
+        <state relative-caret-position="232">
+          <caret line="63" column="45" lean-forward="false" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
           <folding>
-            <marker date="1487129233172" expanded="true" signature="108657:108753" ph="select * fro... device" />
-            <marker date="1487129233172" expanded="true" signature="108707:108731" ph="select room.... room" />
-            <marker date="1487129233172" expanded="true" signature="108926:109053" ph="select * fro... device" />
-            <marker date="1487129233172" expanded="true" signature="108982:109025" ph="select smd_d... smd_device" />
-            <marker date="1487129233172" expanded="true" signature="109227:109335" ph="select * fro... smd_device" />
-            <marker date="1487129233172" expanded="true" signature="109285:109309" ph="select room.... room" />
+            <element signature="n#secondCheck#0;n#Check#0;n#!!top" expanded="false" />
+            <element signature="n#approve#0;n#Check#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
