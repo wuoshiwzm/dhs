@@ -767,6 +767,7 @@ class User
      */
     function GetCurrentUser($bForceLoad = false)
     {
+        $ci = &get_instance();
         if (User::IsAuthenticated()) {
             $userid = $_SESSION["XJTELEDH_USERID"];
             $user = User::GetUserById($userid, $bForceLoad);
@@ -780,7 +781,7 @@ class User
                 delete_cookie("XJTELEDH_HASH");
             }
         }
-        $ci = &get_instance();
+
         $ci->load->library('session');
         $ci->session->set_userdata('returnUrl', $_SERVER['REQUEST_URI']);
         header("Location:" . site_url('login'));
@@ -921,7 +922,7 @@ class User
 
     function LogInUserObj($user, $isRememberMe = false)
     {
-
+/**/
         $username = $user->username;
         $password = $user->password;
         $hash = md5($username . $password);

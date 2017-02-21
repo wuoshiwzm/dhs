@@ -20,26 +20,29 @@ class Login extends Base
         //check if the user is logged
         if (!User::IsAuthenticated()) {
             $this->load->view('member/login');
-            if (uri_string() == "portal/get_video_url")
-                return;
-            if (uri_string() == 'portal/refreshData' &&
-                $this->isOauthPass()
-            ) {
-                return;
-            }
+            //            if (uri_string() == "portal/get_video_url")
+//                return;
+//            if (uri_string() == 'portal/refreshData' &&
+//                $this->isOauthPass()
+//            ) {
+//                return;
+//            }
         } else {
             redirect('/');
         }
 
     }
 
+    /**
+     * @return bool
+     */
     public function isOauthPass()
     {
         $request = new League\OAuth2\Server\Util\Request();
         //包含"application/config/database.php"
         require_once "application/config/database.php";
-        $conn_str = 'mysql://' . $db['default']['username'] . ":" . $db['default']['password'] . '@' . $db['default']['hostname'] . '/' .
-            $db['default']['database'];
+        $conn_str = 'mysql://' . $db['default']['username'] . ":" . $db['default']['password'] .
+            '@' . $db['default']['hostname'] . '/' .$db['default']['database'];
         $db = new League\OAuth2\Server\Storage\PDO\Db($conn_str);
 
         $this->server = new League\OAuth2\Server\Resource(new League\OAuth2\Server\Storage\PDO\Session($db));

@@ -29,8 +29,10 @@ class MP_Master extends CI_Model
     	$data['userObj'] = User::GetCurrentUser();
         $data['siteName'] = $this->config->item('site_name');
         $data['pageTitle'] = $pageTitle;
+
         $data['mainPlaceHolder'] = $mainPlaceHolder;
         $data['headerPlaceHolder'] = $headerPlaceHolder;
+
         $this->load->view('portal/master', $data);
     }
 }

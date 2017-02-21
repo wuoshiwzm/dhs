@@ -4,7 +4,6 @@ if (! defined('BASEPATH'))
 
 class Realtime
 {
-
     static function Get_Mec10RtData($dataIdStr)
     {
         $CI = & get_instance();
